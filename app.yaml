@@ -1,0 +1,8 @@
+application: sauer-cmxio
+version: gitmd5hash
+runtime: python27
+api_version: 1
+threadsafe: yes
+
+includes:
+- cmxio.yaml

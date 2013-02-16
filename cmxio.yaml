@@ -1,0 +1,12 @@
+handlers:
+- url: /favicon\.ico
+  static_files: favicon.ico
+  upload: favicon\.ico
+
+- url: (.*)/
+  static_files: cmx.io\1/index.html
+  upload: cmx.io
+
+- url: (.*)
+  static_files: cmx.io\1
+  upload: cmx.io
