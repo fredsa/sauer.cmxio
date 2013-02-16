@@ -5,4 +5,5 @@ api_version: 1
 threadsafe: yes
 
 includes:
-- cmxio.yaml
+#- cmxio.yaml
+- local.yaml
